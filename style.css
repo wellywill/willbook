@@ -28,7 +28,7 @@ img {
     font-style: italic;
 }
 
-.offcanvas-body h4 a {
+.offcanvas-body li a {
     width: 100px;
     font-family: 'Poppins',
         sans-serif;
@@ -39,8 +39,9 @@ img {
     margin-top: 5px;
 }
 
-.offcanvas-body h4 {
+.offcanvas-body li {
     margin-top: 30px;
+    text-decoration: none;
 }
 
 /* offcanvas end */
