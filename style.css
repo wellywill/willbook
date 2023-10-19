@@ -40,7 +40,12 @@ img {
     text-decoration: none;
     font-style: normal;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.offcanvas-body h4 {
+    margin-top: 30px;
 }
 
 /* offcanvas end */
@@ -75,7 +80,7 @@ img {
 }
 
 .card .card-img-overlay {
-    margin-top: 13rem;
+    margin-top: 9.5rem;
     color: white;
     text-align: center;
     font-family: 'Poppins',
@@ -84,7 +89,7 @@ img {
 }
 
 .card-img-overlay.panjang {
-    margin-top: 11.5rem;
+    margin-top: 8rem;
     color: white;
     text-align: center;
     font-family: 'Poppins',
