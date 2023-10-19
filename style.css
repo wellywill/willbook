@@ -80,30 +80,23 @@ img {
     padding-top: 7rem;
 }
 
-.card .card-img-overlay {
-    margin-top: 9.5rem;
-    color: white;
-    text-align: center;
+.card .card-body {
+    margin-top: 1rem;
     font-family: 'Poppins',
         sans-serif;
-
-}
-
-.card-img-overlay.panjang {
-    margin-top: 8rem;
-    color: white;
     text-align: center;
-    font-family: 'Poppins',
-        sans-serif;
-
 }
 
-.card-img-overlay h5 {
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.7);
+.card .card-body h5 {
+    font-size: 10px;
 }
 
-.card-img-overlay p {
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.8);
+.card .card-body p {
+    font-size: 8px;
+}
+
+.card .card-body a {
+    font-size: 8px;
 }
 
 .card {
