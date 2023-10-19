@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WillBook</title>
+    <link rel="stylesheet" href="asset/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.1/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+
+        <!-- logo -->
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <i alt="Logo" width="30" height="24" class="bi bi-cart-fill d-inline-block align-text-top brand">
+                    <span> Will</span>Book
+                </i>
+            </a>
+            <!-- logo end -->
+
+            <!-- menu -->
+            <a href="#" class="navbar-brand" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRigh">
+                <i class="bi bi-menu-button-wide-fill"></i></a>
+            <div class="offcanvas offcanvas-end" style="width: 140px; background-color: orange;" tabindex="-1"
+                id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="width: 200px;">
+                    <h4><a class="bi-house-fill" href="#home"> Home</a></h4>
+                    <h4><a class="bi-book-half" href="#listbook"> List Book</a></h4>
+                    <h4><a class="bi-person-lines-fill" href="#social-media"> Social Media</a></h4>
+                </div>
+            </div>
+            <!-- menu end -->
+
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- content -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner" id="home">
+            <div class="carousel-item active">
+                <img src="img/asterisk-kwon-q_gjDWf9ths-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Toko Buku Bukan Sembarang Toko, Bukan Pula Sembarang Buku</h5>
+                    <p>dijamin termurah sealam semesta, udah percaya aja</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/brando-makes-branding-PjhOkwN0ruY-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Akhir Bulan Gak Ngaruh</h5>
+                    <p>gak perlu cek ditempat lain lagi, karena kalo dicek gak jadi yang termurah</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- content end -->
+    <div class="alert alert-warning" role="alert">
+        Selamat berbelanja, semoga harimu di awal bulan terus!!!
+    </div>
+    <!-- list book -->
+    <div class="section" id="listbook">
+        <div class="container listbook">
+            <h1 class="bi bi-book-half"> List Book</h1>
+            <div class="row justify-content-center">
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/Ionelines2.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">loneliness</h5>
+                        <p class="card-text">Alvi Syahrin.</p>
+                        <a href="https://shope.ee/AK9FbZSpQm" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/insecurity.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Insecurity</h5>
+                        <p class="card-text">Alvi Syahrin.</p>
+                        <a href="https://shope.ee/1LEQssrWja" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/menikmati kepergianmu4.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Menikmati Kepergianmu</h5>
+                        <p class="card-text">Alfialghazi.</p>
+                        <a href="https://shope.ee/9zWPCnY8Xa" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/jika nanti kamu jatuh cinta lagi.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay panjang">
+                        <h5 class="card-title">Jika Nanti Kamu Jatuh Cinta Lagi</h5>
+                        <p class="card-text">Alvialghazi.</p>
+                        <a href="https://shope.ee/6fFxEhxM5Y" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/Overthingking.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Overthingking</h5>
+                        <p class="card-text">Alvi Syahrin.</p>
+                        <a href="https://shope.ee/5AR9RpsUJM" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/hampirmenyerah.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Hampir Menyerah</h5>
+                        <p class="card-text">Alvialghazi.</p>
+                        <a href="https://shope.ee/6UwX1TPkXd" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0"
+                    style="width: 18rem; background-color:transparent">
+                    <img src="img/sampulbuku/PorakPorandaKarenaPerasaan.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Porak Poranda</h5>
+                        <p class="card-text">Alvialghazi.</p>
+                        <a href="https://shope.ee/6pZNQYPteV" class="btn btn-warning bi-bag-fill"> Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- list book end -->
+
+    <!-- social media -->
+    <div class="section" id="social-media">
+        <h1 class="social-media">Social Media</h1>
+        <div class="container g-0">
+            <div class="row socialmedia">
+                <div class="col-12">
+                    <p><a class="bi-instagram"
+                            href="https://instagram.com/ghazali_rhmn?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">
+                            Instagram</a></p>
+                </div>
+                <div class="col-12">
+                    <p><a class="bi-tiktok" href="https://www.tiktok.com/@wellywill?_t=8gPYAa4xOPo&_r=1"> Tiktok</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- social media end -->
+
+
+
+
+    <!-- script -->
+    <script src="asset/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <!-- script end -->
+</body>
+
+</html>

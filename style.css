@@ -1,0 +1,143 @@
+body {
+    height: 3000px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* navbar end */
+
+.navbar span {
+    color: orange;
+}
+
+img {
+    color: beige;
+}
+
+/* offcanvas */
+.offcanvas-header h5 {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.offcanvas-body h4 a {
+    width: 100px;
+    font-family: 'Poppins',
+        sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    font-size: 10px;
+}
+
+/* offcanvas end */
+
+/* content */
+.carousel-inner {
+    margin-top: 3rem;
+}
+
+.carousel-caption {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.carousel-caption h5 {
+    font-size: 10px;
+}
+
+.carousel-caption p {
+    font-size: 8px;
+}
+
+/* content end */
+
+/* list book */
+.container.listbook h1 {
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    padding-top: 7rem;
+}
+
+.card .card-img-overlay {
+    margin-top: 13rem;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.card-img-overlay.panjang {
+    margin-top: 11.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.card-img-overlay h5 {
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.7);
+}
+
+.card-img-overlay p {
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.8);
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text a {
+    text-align: end;
+}
+
+/* list book end */
+
+/* social media */
+.social-media {
+    padding-top: 10rem;
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+}
+
+.row.socialmedia {
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: 'Poppins',
+        sans-serif;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.col-12 p a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* social media end */
