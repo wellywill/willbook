@@ -66,7 +66,7 @@ img {
 /* content end */
 
 /* list book */
-.container.listbook h1 {
+.container-fluid.listbook h1 {
     text-align: center;
     font-family: 'Poppins',
         sans-serif;
@@ -141,3 +141,14 @@ img {
 }
 
 /* social media end */
+@media (max-width: 576px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-img-overlay {
+        width: 50%;
+    }
+}
