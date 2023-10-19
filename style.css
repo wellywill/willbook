@@ -28,6 +28,11 @@ img {
     font-style: italic;
 }
 
+.offcanvas.offcanvas-end {
+    width: 15rem;
+    background-color: orange;
+}
+
 .offcanvas-body li a {
     width: 100px;
     font-family: 'Poppins',
