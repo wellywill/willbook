@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* navbar */
 .navbar {
     font-family: 'Poppins',
@@ -153,3 +154,55 @@ img {
         width: 50%;
     }
 }
+
+/* tulisan */
+.tulisan {
+    background-color: #ffa500;
+}
+
+.tulisan h1 {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.container.tulisan {
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.accordion {
+    font-family: 'Poppins',
+        sans-serif;
+    width: 30rem;
+}
+
+.btn.btn-secondary {
+    margin-top: 10px;
+}
+
+.accordion-button {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+}
+
+
+.accordion-body {
+    font-size: 10px;
+    text-align: center;
+}
+
+.accordion-body p {
+    text-align: end;
+    font-size: 7px;
+}
+
+.accordion-body span {
+    font-style: italic;
+}
+
+/* tulisan end */
