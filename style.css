@@ -161,13 +161,13 @@ img {
     max-height: 40px;
 }
 
-.container-fluid.tulisan .col h5 {
+.container-fluid.tulisan .col h6 {
     margin-bottom: 0px;
     color: white;
 }
 
 .container-fluid .col p {
-    color: white;
+    color: gray;
 }
 
 /* carousel */
@@ -183,6 +183,7 @@ img {
 
 .container-fluid.tulisan {
     background-color: black;
+    min-height: 500px;
 }
 
 .carousel.slide {
