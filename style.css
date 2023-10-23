@@ -156,53 +156,61 @@ img {
 }
 
 /* tulisan */
-.tulisan {
-    background-color: #ffa500;
+.container-fluid.tulisan img {
+    max-width: 40px;
+    max-height: 40px;
 }
 
-.tulisan h1 {
-    padding-top: 4rem;
-    text-align: center;
-    font-family: 'Poppins',
-        sans-serif;
-    font-weight: 700;
+.container-fluid.tulisan .col h5 {
     margin-bottom: 0px;
+    color: white;
 }
 
-.container.tulisan {
-    padding-top: 15px;
-    justify-content: center;
+.container-fluid .col p {
+    color: white;
 }
 
-.accordion {
+/* carousel */
+.tulisan {
+    background-color: black;
+}
+
+.tulisan button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.container-fluid.tulisan {
+    background-color: black;
+}
+
+.carousel.slide {
+    min-width: 10px;
+    min-height: 100px;
+    background-color: black;
+}
+
+.carousel-item p {
+    padding-left: 4px;
     font-family: 'Poppins',
         sans-serif;
-    width: 30rem;
 }
 
-.btn.btn-secondary {
-    margin-top: 10px;
-}
-
-.accordion-button {
+.carousel-item p small {
+    color: gray;
     font-family: 'Poppins',
         sans-serif;
-    font-weight: 700;
 }
 
-
-.accordion-body {
-    font-size: 10px;
-    text-align: center;
+/* pagination */
+.page-item .page-link {
+    color: black;
 }
 
-.accordion-body p {
-    text-align: end;
-    font-size: 7px;
-}
-
-.accordion-body span {
-    font-style: italic;
+.pagination {
+    background-color: black;
+    margin-bottom: 0px;
 }
 
 /* tulisan end */
