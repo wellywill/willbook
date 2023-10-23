@@ -157,8 +157,8 @@ img {
 
 /* tulisan */
 .container-fluid.tulisan img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 42px;
+    max-height: 42px;
 }
 
 .container-fluid.tulisan .col h6 {
